@@ -1,0 +1,63 @@
+#include<stdio.h> 
+
+int main()
+{
+	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	int i = 0;
+	while (i < 10)
+	{
+		printf("%d\n", arr[i]);
+		i++;
+	}
+	/*printf("%d\n", arr[4]);*/
+	return 0;
+}
+
+//int Add(int x, int y)
+//{
+//	int z = x + y;
+//	return z;
+//}
+//int main()
+//{
+//	int num1 = 0;
+//	int num2 = 0;
+//	int sum = 0;
+//	int a = 100;
+//	int b = 200;
+//	sum = Add(num1, num2);
+//	printf("sum=%d\n", sum);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int line = 0;
+//	printf("加入bit\n");
+//
+//	while (line < 20000)
+//	{
+//		printf("写一行代码:%d\n", line);
+//		line++;
+//	}
+//	if(line>=20000)
+//		printf("拿好offer");
+//	
+//
+//	return 0;
+//}
+////int main()
+//{
+//   
+//    int a = 0;
+//    printf("加入bit\n");
+//    printf("你要好好学习吗？(1/0)>:");
+//    scanf_s("%d", &a);
+//    if (a == 1)
+//        printf("拿好offer");
+//    if (a == 0)
+//        printf("回家种红薯");
+//   
+//
+//    return 0;
+//}
